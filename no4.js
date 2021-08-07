@@ -18,7 +18,7 @@ class Frog extends Animal{
 let myfrog =  new Frog ()
 myfrog.jump()
 
-class ape extends Animal{
+class Ape extends Animal{
     constructor(name,isMammal){
         super(name,isMammal)
     }
@@ -26,6 +26,6 @@ class ape extends Animal{
         console.log('auoooooooo')
     }
 }
- let myApe =new ape()
+ let myApe =new Ape()
  myApe.yell()
 
